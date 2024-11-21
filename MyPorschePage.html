@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPorschePage</title>
+</head>
+<body>
+    <u><h1>Bienvenue sur la page Porsche :</h1></u>
+    <p>Ceci est une page montrant des photos de Porsche magnifiques</p>
+    <br>
+    <p>Il y a différents modèles mais le meilleur pour moi est sans aucun doute la Porsche 911 GT3RS</p>
+    <u><h1>La Porsche 911 GT3 :</h1></u>
+    <div class="image-container">
+        <img src="Photos Porsche/4.png" alt="911" />
+        
+    </div>
+</body>
+<style>
+    h1, h2 {
+        text-decoration: underline; /* Ajoute un soulignement */
+        text-decoration-color: rgb(9, 92, 60); /* Change la couleur du soulignement */
+    }
+
+    body {
+        background-color: rgb(211, 211, 211); /* Couleur de fond */
+        font-family: Arial, sans-serif; /* Police */
+    }
+
+    h1 {
+        color: rgb(9, 92, 60); /* Couleur du texte */
+        text-align: center; /* Centrage du texte */
+    }
+
+    p {
+        font-size: 20px; /* Taille du texte */
+        line-height: 1.5; /* Hauteur de ligne */
+        text-align: center; /* Centrer le texte */
+    }
+
+    /* Conteneur pour les images */
+    .image-container {
+        display: flex; /* Utilisation de Flexbox pour aligner les images */
+        justify-content: center; /* Centrer les images horizontalement */
+        gap: 20px; /* Espace entre les images */
+    }
+
+    /* Style des images */
+    img {
+        width: 65%; /* Chaque image occupe 45% de la largeur du conteneur */
+        height: auto; /* Conserver le ratio d'aspect des images */
+    }
+</style>
+</html>
